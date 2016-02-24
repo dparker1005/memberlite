@@ -31,5 +31,6 @@ jQuery( document ).ready(function() {
   });
   
   //check if we should switch tab content on page loads
-  jQuery('a[href=' + window.location.hash + ']').click();
+  if(window.location.hash)
+	jQuery('a[href=' + window.location.hash + ']').click();
 });
