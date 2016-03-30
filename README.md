@@ -82,6 +82,7 @@ We highly recommend using these plugins for every site running Memberlite:
 * BUG: Fixing dark.css for color conflicts with PMPro and bbPress
 * BUG: Removed add_image_size('large') declaration
 * BUG: Fixing content_width for full width or fluid width page template.
+* BUG: Fixing nav menus when using pmpro-nav-menus addon
 
 **2.0.3.7**
 * ENHANCEMENT: Added JS code to swap to a tab if an anchor is in the URL.
