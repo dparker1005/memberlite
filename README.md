@@ -79,6 +79,7 @@ We highly recommend using these plugins for every site running Memberlite:
 * BUG: Fixing error when viewing archive and no $post is set.
 * BUG: Fixing error when missing pagemenuid in sidebar
 * BUG: Fixing CSS on checkout page headings (h2) for boxes added via Register Helper.
+* BUG: Fixing dark.css for color conflicts with PMPro and bbPress
 
 **2.0.3.7**
 * ENHANCEMENT: Added JS code to swap to a tab if an anchor is in the URL.
