@@ -77,6 +77,7 @@ We highly recommend using these plugins for every site running Memberlite:
 * BUG: Fixed fatal error where bbp_is_forum_archives() was called without checking first if bbPress was installed. (Thanks, Square-Lines)
 * BUG: Fixing index error on memberlite_cpt_sidebar_id.
 * BUG: Fixing error when viewing archive and no $post is set.
+* BUG: Fixing error when missing pagemenuid in sidebar
 
 **2.0.3.7**
 * ENHANCEMENT: Added JS code to swap to a tab if an anchor is in the URL.
