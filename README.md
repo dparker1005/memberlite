@@ -72,6 +72,10 @@ We highly recommend using these plugins for every site running Memberlite:
 
 
 ###Changelog
+**2.1**
+NOTE: This update includes bug fixes, but also prepairs you for an upgrade to Memberlite 3.0 coming out in 2016.
+BUG: Fixed issue where the "member" menu area wasn't loading the menu set when users were logged out.
+
 **2.0.3.4**
 * SECURITY: Now using get_search_query() and the_search_query() to prevent XSS issues in h1s and breadcrumbs on search results pages. (Thanks, retr0)
 * ENHANCEMENT: Tweaks to checkout page CSS.
