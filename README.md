@@ -70,12 +70,29 @@ We highly recommend using these plugins for every site running Memberlite:
 **Theme My Login**
 [Install Theme My Login »](https://wordpress.org/plugins/theme-my-login/)
 
-
 ###Changelog
 **2.1**
 * NOTE: This update includes bug fixes, but also prepairs you for an upgrade to Memberlite 3.0 coming out in 2016.
 * BUG: Fixed issue where the "member" menu area wasn't loading the menu set when users were logged out.
 * BUG: Fixed fatal error where bbp_is_forum_archives() was called without checking first if bbPress was installed. (Thanks, Square-Lines)
+* BUG: Fixing index error on memberlite_cpt_sidebar_id.
+
+**2.0.3.7**
+* ENHANCEMENT: Added JS code to swap to a tab if an anchor is in the URL.
+
+**2.0.3.6**
+* ENHANCEMENT: Added responsive appearance to compare_table Membership Levels layout.
+* Added hooks for before and after content hooks to single page and single post.
+* BUG: Fixed notices in memberlite_levels shortcode.
+
+**2.0.3.5**
+* FEATURE: Added memberlite_banner shortcode
+* BUG: Fixed comment/ping/trackback count for 'approve' status only.
+* BUG: Updated Comment Walker to respect PHP strict standards
+* BUG: Fixed homepage bottom banner when page template is defined.
+* BUG: Fixed highlighted level in the compare_table layout when highlighted level is first column.
+* BUG: Fixed current_user level class on compare_table layout in membership levels shortcode.
+* BUG: Fixed notice when bbpress is not activated for memberlite_page_title function
 
 **2.0.3.4**
 * SECURITY: Now using get_search_query() and the_search_query() to prevent XSS issues in h1s and breadcrumbs on search results pages. (Thanks, retr0)
