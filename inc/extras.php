@@ -291,7 +291,7 @@ function memberlite_page_title() {
 				elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
 					_e( 'Chats', 'memberlite' );
 	
-				elseif (bbp_is_forum_archive()) :
+				elseif ( function_exists('bbp_is_forum_archive') && bbp_is_forum_archive()) :
 					_e( 'Forums', 'memberlite');
 					
 				else :
@@ -758,7 +758,7 @@ function memberlite_getBreadcrumbs()
 				elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
 					_e( 'Chats', 'memberlite' );
 	
-				elseif (bbp_is_forum_archive()) :
+				elseif ( function_exists('bbp_is_forum_archive') && bbp_is_forum_archive()) :
 					_e( 'Forums', 'memberlite');
 					
 				else :
